@@ -1,5 +1,6 @@
 import styles from '../../styles/Employee.module.css'
 import { Toolbar } from "../../components/Toolbar"
+import employeesRecord from '../../public/database/employees.json'
 
 export const employee = ({ employee }) => {
   
@@ -21,7 +22,7 @@ export const employee = ({ employee }) => {
           className={styles.employeeCard}
         >
           <h3>{name}</h3>
-          <img src={`http://localhost:3000/${image}`}/>
+          <img src={`../../${image}`}/>
           <h4>Contact Info: {phone}</h4>
           <p>{about}</p>
         </div>
@@ -31,8 +32,7 @@ export const employee = ({ employee }) => {
 }
 
 export const getStaticProps =  async ( { params } ) => {
-  const employeesRecord = await fetch('http://localhost:3000/database/employees.json')
-    .then (data => data.json())
+  
 
   return {
     props: {
@@ -42,9 +42,7 @@ export const getStaticProps =  async ( { params } ) => {
 }
 
 export const getStaticPaths = async () => {
-  const employeesRecord = await fetch('http://localhost:3000/database/employees.json')
-    .then (data => data.json())
-  
+ 
   const paths = Object.keys(employeesRecord).map(employee => {
     return { params: {
       employee
