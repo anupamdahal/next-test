@@ -8,6 +8,7 @@ export default function Home() {
       <div className={styles.main}>
         <h1>Say Bye to Fake News!</h1>
         <h3>Get unbiased unfiltered news! We have no political inclination!</h3>
+        <p>HI This is just a test</p>
       </div>
     </div>
   );
