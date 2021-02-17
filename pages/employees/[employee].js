@@ -6,6 +6,8 @@ export const employee = ({ employee }) => {
   
   const { name, image, phone, about } = employee
 
+  console.log(`${image}`)
+
   return (
     <div className='page-container'>
 
