@@ -1,0 +1,32 @@
+{
+  "howard": {
+    "name": "Howard Wolowitz",
+    "image": "database/images/howard.png",
+    "phone": "2563011829",
+    "about": "Howard Joel Wolowitz, M.Eng. is a fictional character on the CBS television series The Big Bang Theory, portrayed by actor Simon Helberg. Among the four main male characters in the show, Howard is distinctive for being an engineer rather than a physicist and lacking a PhD."
+  },
+  "sheldon": {
+    "name": "Sheldon Cooper",
+    "image": "database/images/sheldon.png",
+    "phone": "2563011822",
+    "about": "Sheldon Lee Cooper Ph.D., Sc.D., is a fictional character in the CBS television series The Big Bang Theory and its spinoff series Young Sheldon, portrayed by actors Jim Parsons in The Big Bang Theory and Iain Armitage in Young Sheldon."
+  },
+  "penny": {
+    "name": "Penny",
+    "image": "database/images/penny.png",
+    "phone": "2563011823",
+    "about": "Penny is a fictional character from the American CBS sitcom The Big Bang Theory, portrayed by actress Kaley Cuoco."
+  },
+  "raj": {
+    "name": "Raj Kootrapali",
+    "image": "database/images/raj.png",
+    "phone": "2563011824",
+    "about": "Rajesh, aka, Raj Ramayan Koothrappali, Ph.D. is a fictional character on the CBS television series The Big Bang Theory, portrayed by British actor Kunal Nayyar. He is one of the four characters, along with Howard Wolowitz, Sheldon Cooper, and Leonard Hofstadter, to appear in every episode of The Big Bang Theory. "
+  },
+  "lenord": {
+    "name": "Lenord Hofstadter",
+    "image": "database/images/lenord.png",
+    "phone": "2563011825",
+    "about": "Leonard Leakey Hofstadter, Ph.D., is a fictional character in the CBS sitcom The Big Bang Theory, in which he is portrayed by actor Johnny Galecki. Leonard is an experimental physicist, who shares an apartment with colleague and best friend Dr. Sheldon Cooper."
+  }
+}
